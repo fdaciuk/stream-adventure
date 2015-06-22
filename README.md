@@ -22,6 +22,6 @@ Each challenge is in its own directory.
 
 ## Editing a challenge
 
-For edit, run "npm install" inside challenge directory, if it has a package.json file.
+For edit, run `npm install` inside challenge directory, if it has a package.json file.
 
 Enjoy ;)
