@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "through2": "^2.0.0",
+    "trumpet": "^1.7.1"
+  }
+}
