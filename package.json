@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "test": "stream-adventure verify"
+  }
+}
