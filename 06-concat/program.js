@@ -1,8 +1,6 @@
 'use strict';
-
 var concat = require('concat-stream');
 
-function write(body) {
-  this.push(JSON.parse(body));
-}
-process.stdin.pipe(concat(write)).pipe(process.stdout);
+process.stdin.pipe(concat(function(body) {
+  console.log(body.toString().split('').reverse().join(''));
+}));
