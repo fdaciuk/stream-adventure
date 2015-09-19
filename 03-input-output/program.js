@@ -1,1 +1,2 @@
-process.stdin.pipe( process.stdout );
+'use strict';
+process.stdin.pipe(process.stdout);
