@@ -1,13 +1,12 @@
-var through = require( 'through2' );
-var stream = through( write, end );
+'use strict';
 
-function write( buffer, encoding, next ) {
-  this.push( buffer.toString().toUpperCase() );
+var through = require('through2');
+var stream = through(toUpperCase);
+
+function toUpperCase(buffer, encoding, next) {
+  var str = buffer.toString();
+  this.push(str.toUpperCase());
   next();
 }
 
-function end( done ) {
-  done();
-}
-
-process.stdin.pipe( stream ).pipe( process.stdout );
+process.stdin.pipe(stream).pipe(process.stdout);
