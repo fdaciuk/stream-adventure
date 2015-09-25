@@ -1,9 +1,9 @@
 'use strict';
 var duplexer2 = require('duplexer2');
-var through = require('through2').obj;
+var through = require('through2');
 
 module.exports = function(counter) {
-  var stream = through(write, end);
+  var stream = through({ objectMode: true }, write, end);
   var counts = {};
 
   function write(chunk, encoding, next) {
