@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "duplexer2": "0.0.2"
+    "duplexer2": "0.0.2",
+    "through2": "^2.0.0"
   }
 }
