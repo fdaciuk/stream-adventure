@@ -1,5 +1,7 @@
 # Stream adventure
 
+> Use Node 6+
+
 ## How to start
 
 Install `stream-adventure` globally:
@@ -7,6 +9,8 @@ Install `stream-adventure` globally:
 ```sh
 [sudo] npm i -g stream-adventure
 ```
+
+If you're using NVM, just type `nvm use` to use NodeJS v6.
 
 ## Usage
 
