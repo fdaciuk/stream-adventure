@@ -1,2 +1,2 @@
-'use strict';
-console.log('beep boop');
+'use strict'
+console.log('beep boop')
